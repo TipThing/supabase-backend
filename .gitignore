@@ -1,0 +1,12 @@
+# Ignore all defined env files
+.env
+
+# Ignore all volumes created by supabase
+volumes/db/data
+volumes/storage
+
+# Ignore all test requests
+test.http
+
+# Ignore docker compose override file
+docker-compose.override.yml
